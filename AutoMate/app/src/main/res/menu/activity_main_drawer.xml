@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_satellite"
+            android:icon="@mipmap/am_logo"
+            android:title="hello" />
+        <item
+            android:id="@+id/nav_traffic"
+            android:icon="@mipmap/am_logo"
+            android:title="hi" />
+        <item
+            android:id="@+id/nav_terrain"
+            android:icon="@mipmap/am_logo"
+            android:title="how" />
+
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@mipmap/am_logo"
+            android:title="are" />
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_about_us"
+                android:title="you" />
+            <item
+                android:id="@+id/nav_sos"
+                android:title=":P" />
+        </menu>
+    </item>
+
+</menu>
